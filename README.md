@@ -14,3 +14,6 @@
 
 [polynomino](./polynomino/src/main.cpp)
 - https://www.acmicpc.net/problem/1343
+
+[factorial zero num](./factorial_zero_num/src/main.cpp)
+- https://www.acmicpc.net/problem/1676
