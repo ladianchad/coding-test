@@ -16,7 +16,7 @@
 - https://www.acmicpc.net/problem/1343
 
 [movie shom](./movie_shom/src/main.cpp)
-- https://www.acmicpc.net/status?user_id=qhrejddlvltm&problem_id=1436&from_mine=1
+- https://www.acmicpc.net/problem/1436
 
 [factorial zero num](./factorial_zero_num/src/main.cpp)
 - https://www.acmicpc.net/problem/1676
