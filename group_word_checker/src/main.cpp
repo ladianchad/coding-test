@@ -3,16 +3,14 @@
 #include <string>
 #include <vector>
 #include <map>
+using namespace std;
 
-int check(std::string &str){
-    using namespace std;
+int check(string &str){
     map<char,bool> str_map;
     char prev = str[0];
     str_map[prev] = true;
     for(int i = 1; i< str.length(); i++){
-        if(prev == str[i]){
-            continue;
-        } else if(str_map[str[i]]) {
+        if(prev == str[i] && str_map[str[i]]) {
             return 0;
         }
         str_map[str[i]] = true;
@@ -23,7 +21,6 @@ int check(std::string &str){
 
 int main(int argc, char const *argv[])
 {
-    using namespace std;
     int num;
     cin >> num;
     cin.get();

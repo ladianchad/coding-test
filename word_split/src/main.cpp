@@ -16,11 +16,6 @@ std::string getReversedString(std::string &str, int slice_index_1, int slice_ind
 
 std::string solve(std::string& target){
     std::string result = "z";
-
-    std::for_each(target.begin(), target.end(), [](char c){
-        std::cout<< c << std::endl;
-    });
-    
     for(int i = 1; i < target.length()- 1; i++){
         for(int j = i + 1; j < target.length(); j++){
             std::string now = getReversedString(target, i, j);
