@@ -8,3 +8,9 @@
 
 [find decimal](./find_decimal/src/main.cpp)
 - https://www.acmicpc.net/problem/1978
+
+[sort inside](./sort_inside/src/main.cpp)
+- https://www.acmicpc.net/problem/1427
+
+[polynomino](./polynomino/src/main.cpp)
+- https://www.acmicpc.net/problem/1343
