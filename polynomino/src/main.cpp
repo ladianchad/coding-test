@@ -1,20 +1,21 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
+
+void replaceAll(string &str, string target, string replace)
+{
+  while(str.find(target) != string::npos)
+  {
+    str.replace(str.find(target), replace.length(), replace);
+  }
+}
 
 int main(int argc, char const *argv[])
 {
   string board;
   getline(cin, board);
-  while(board.find("XXXX") != string::npos)
-  {
-    board.replace(board.find("XXXX"), 4, "AAAA");
-  }
-  while(board.find("XX") != string::npos)
-  {
-    board.replace(board.find("XX"), 2, "BB");
-  }
+  replaceAll(board, "XXXX", "AAAA");
+  replaceAll(board, "XX", "BB");
   cout<< ((board.find('X') == string::npos)? board : "-1");
   return 0;
 }
