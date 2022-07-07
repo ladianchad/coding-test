@@ -8,13 +8,11 @@ int main(int argc, char const *argv[])
 {
   int num;
   cin >> num;
-  int target = 666;
+  int target = 665;
   while(num){
-    string str = to_string(target);
-    if( str.find("666") != std::string::npos){
+    if( to_string(target++).find("666") != std::string::npos){
       num--;
     }
-    target++;
   }
   cout<< target - 1;
   return 0;
