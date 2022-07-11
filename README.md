@@ -30,3 +30,6 @@
 [student number](./student_number/src/main.cpp)
 - https://www.acmicpc.net/problem/1235
 
+
+[best seller](./bestseller/src/main.cpp)
+- https://www.acmicpc.net/problem/1302
