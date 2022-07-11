@@ -23,3 +23,10 @@
 
 [string](./string/src/main.cpp)
 - https://www.acmicpc.net/problem/1120
+
+[yosepuse](./string/src/main.cpp)
+- https://www.acmicpc.net/problem/1158
+
+[student number](./student_number/src/main.cpp)
+- https://www.acmicpc.net/problem/1235
+
