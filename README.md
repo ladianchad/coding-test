@@ -20,3 +20,6 @@
 
 [factorial zero num](./factorial_zero_num/src/main.cpp)
 - https://www.acmicpc.net/problem/1676
+
+[string](./string/src/main.cpp)
+- https://www.acmicpc.net/problem/1120
