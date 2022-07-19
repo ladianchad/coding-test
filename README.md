@@ -32,5 +32,9 @@
 
 [best seller](./bestseller/src/main.cpp)
 - https://www.acmicpc.net/problem/1302
+
 [make_palindrom](./make_palindrom/src/main.cpp)
 - https://www.acmicpc.net/problem/1213
+
+[symmetric_difference](./symmetric_difference/src/main.cpp)
+- https://www.acmicpc.net/problem/1269
