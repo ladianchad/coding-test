@@ -30,7 +30,6 @@ int main(int argc, char const *argv[])
     getline(cin, num);
     nums.push_back(num);
   }
-
   cout<<find(nums, 1);
   return 0; 
 }
