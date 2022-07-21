@@ -1,6 +1,5 @@
 
 [word_split](./word_split/src//main.cpp)
-
 - https://www.acmicpc.net/problem/1251
 
 [group word checker](./group_word_checker/src/main.cpp)
@@ -41,3 +40,6 @@
 
 [climbing stairs](./climbing_stairs/src/main.cpp)
 - https://www.acmicpc.net/problem/2579
+
+[virus](./virus/src/main.cpp)
+- https://www.acmicpc.net/problem/2606
